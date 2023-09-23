@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-image: url('./5172658.jpg');
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.centeredScrambledWord {
+    /* text-align: center; */
+    color: aqua;
+    /* padding: 200px 0; */
+}
+
+.centeredPrompt {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    justify-content: center;
+    color: aqua;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: aqua;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.centerButton {
+    display: flex;
+    margin: 0 auto;
+    background-color: Chartreuse;
+    color: Sienna;
+    font-weight: bold;
+    font-family: Copperplate;
+    padding: 10px 60px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.centerPlayAgainButton {
+    display: flex;
+    margin: 0 auto;
+    background-color: SpringGreen;
+    color: Navy;
+    font-weight: bold;
+    font-family: Copperplate;
+    padding: 10px 60px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.centerInput {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: MediumPurple;
+    font-family: Jazz LET;
+}
+
+.outputtedIncorrect {
+    display: flex;
+    justify-content: center;
+    color: Red;
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+}
+
+.outputtedScore {
+    display: flex;
+    justify-content: center;
+    color: SlateBlue;
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+}
+
+.outputtedCorrect {
+    display: flex;
+    justify-content: center;
+    color: green;
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+}
+
+.outputtedGameOver {
+    display: flex;
+    justify-content: center;
+    color: Plum;
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+}
+
+.rightMusicPlayerText {
+    color: aqua;
+}
+
+.form {
+    text-align: center;
+}
